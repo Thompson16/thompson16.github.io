@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ronaldo | Portafolio</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f1f5f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  h1 { font-size: 2.5rem; margin-bottom: 10px; }
+  p.subtitle { font-size: 1.1rem; color: #94a3b8; margin-bottom: 40px; max-width: 500px; }
+  .proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 360px;
+  }
+  .btn-proyecto {
+    display: block;
+    background: #1d4ed8;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: transform 0.2s, background 0.2s;
+  }
+  .btn-proyecto:hover { background: #2563eb; transform: translateY(-2px); }
+  .btn-proyecto.proximamente {
+    background: #334155;
+    color: #94a3b8;
+    cursor: not-allowed;
+  }
+  footer { margin-top: 50px; color: #64748b; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+  <h1>Ronaldo</h1>
+  <p class="subtitle">Estudiante de Sistemas / Ingeniería — proyectos académicos aplicados a problemas reales.</p>
+
+  <div class="proyectos">
+    <a class="btn-proyecto" href="sistema-experto.html">🖥️ Sistema Experto</a>
+    <a class="btn-proyecto" href="proyecto-red.html">🌐 Red con VLANs</a>
+    <a class="btn-proyecto proximamente" href="#">➕ Próximo proyecto</a>
+  </div>
+
+  <footer>© 2026 Ronaldo · Portafolio académico</footer>
+
+</body>
+</html>
